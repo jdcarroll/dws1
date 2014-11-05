@@ -5,7 +5,7 @@
 .front-page {
 	margin:0px;
 	padding:0px;
-	font-family: arial;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .backgroundimage {
@@ -16,6 +16,7 @@
 	background-image: url("../images/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	box-shadow: 1px 1px 2px rgb(0,0,0);
 }
 
 .container {
@@ -98,7 +99,7 @@ nav a:active {
 }
 
 /*********************************************************
-***********************  Content   ***********************
+*****************  Main Content IDs   ********************
 **********************************************************/
 
 .main_content {
@@ -109,7 +110,7 @@ nav a:active {
 .main_content li {
 	margin:0px;
 	padding:0px;
-	list-style: none;
+	list-style-type: none;
 	border-width: 0 0 1px 0;
 	border-style: solid;
 	border-color: gray;
@@ -151,11 +152,41 @@ nav a:active {
 	font-size: 2em;
 }
 
+
+#winelist ol li {
+	min-height: 600px;
+}
+
+#winelist ol li:last-child {
+	border-bottom: none;
+}
+
+#footer {
+	background-color: rgba(178,178,178,0.4);
+	color: rgb(255,255,255);
+
+}
+
+#footer h2 {
+	color: rgb(255,255,255);
+}
+
+/*********************************************************
+****************  Main Dom Elements   ********************
+**********************************************************/
+
 ol li figure img {
+	float: right;
 	display: block;
-	margin: 0 auto;
+	margin: 0px 20px 20px 20px;
 	border-radius:20px;
 	box-shadow: 1px 1px 2px rgb(0,0,0);
+}
+
+figcaption {
+	color: rgb(124,132,135);
+	font-size: 2em;
+	margin: 50px 20px 50px 0;
 }
 
 h2 {
@@ -176,43 +207,35 @@ p {
 blockquote {
 	color: rgb(124,132,135);
 	font-size: 2em;
+	line-height: 120%;
+	text-align: center;
 	font-style: italic;
 }
 
+a {
+	text-decoration: none;
+	color: rgb(124,132,135);
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgb(32,32,32);
+	font-weight: bold;
+}
+
+/********************************************************
+
+Questions to ask when next in class
+
+1. I used link to pull in google fonts but should I use @font-face as well?
+
+2. I removed my list item markers but should i also have a list where I use them
+ or is that not required?
+ 
+3. I used short hand a little but I also used long hand to improve readability and usability
+and I going to get marked down for this?
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*********************************************************/

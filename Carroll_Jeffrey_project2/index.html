@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    	<meta charset="UTF-8">
-    	<title>The Wino App</title>
-    	<link href="css/style.css" rel="stylesheet">
-    	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic' rel='stylesheet' type='text/css'>
-	</head>
-	<body class="front-page"><!-- I added a return between major elements on the page to improove read ability I dont know that there is anything thing semantically wrong with this but I have always appreciated it when other developers made things easier for me :) -->
-		
-		<div class="backgroundimage">
-			<nav>
-				<ul>
-					<li>Home</li>
-					<li><a href="#ourWines">Our Wines</a></li>
-					<li><a href="#ourFeatures">Our Features</a></li>
-					<li>About Us</li>
-					<li>Contact Us</li>
-				</ul>
-			</nav>	
-			
-			<h1>The Wino App</h1>
-		</div><!-- End of backgroundimage -->
-		
-		<div class="container"><!-- I am using a class on the assumption that I will have one containr per page -->
-		 	
-		 	<ul class="main_content">
-				<li><div id="intro_paragraph" class="wrapper">
-		
+<head>
+    <meta charset="UTF-8">
+    <title>The Wino App</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic' rel='stylesheet' type='text/css'>
+</head>
+<body class="front-page"><!-- I added a return between major elements on the page to improove read ability I dont know that there is anything thing semantically wrong with this but I have always appreciated it when other developers made things easier for me :) -->
+
+<div class="backgroundimage">
+    <nav>
+        <ul><!-- To demenstrate understanding of the link states in css and over all style consistency I have made all navigation elements links even though currently they don't go anywhere -->
+            <li><a href="#">Home</a></li>
+            <li><a href="#ourWines">Our Wines</a></li>
+            <li><a href="#ourFeatures">Our Features</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <h1>The Wino App</h1>
+</div><!-- End of backgroundimage -->
+
+	<div class="container"><!-- I am using a class on the assumption that I will have one containr per page -->
+
+		<ul class="main_content">
+			<li>
+				<div id="intro_paragraph" class="wrapper">
+
 					<p>Welcome to <strong><em>The Wino App!!</em></strong> This is a place for you to let us do the pairing for you! Tell us what you are going to have for dinner and we will find you the perfect bottle to compliment your meal.  Not only will we suggest a great bottle for you but we will also help you find it. Keep your <abbr title="Geolocaton feature"><em>Geoloc</em></abbr> turned on in your device and we can check the inventory levels at he stores surrounding your area and we can tell you where to buy it.</p>
 
 					<blockquote><q>The Wino App is going to revolutionize the way that we interact with the consumer</q>- Jeff Warner (A professional Wino)</blockquote>
 
-				</div><!-- end of intro_paragraph --></li>
-			
-				
-				<li id="our_Wines"><div id="challenge" class="wrapper">
-				
-				<a id="ourWines"><h2>Our Wines</h2></a>
+				</div><!-- end of intro_paragraph -->
+			</li>
 
-				<p>We have a vast collection of wine in our database.  So much so that I dont think it's posible for the average consumer to have drank it all in one life time but if you are up for the challenge so are we!!</p>
-				
-				</div></li>
-				
-				<div class="wrapper"><h3>Some of our Wines</h3>
-			
+
+			<li id="our_Wines">
+				<div id="challenge" class="wrapper">
+
+					<a id="ourWines"><h2>Our Wines</h2></a>
+
+					<p>We have a vast collection of wine in our database.  So much so that I dont think it's posible for the average consumer to have drank it all in one life time but if you are up for the challenge so are we!!</p>
+
+				</div><!-- end of challenge -->
+			</li><!-- end of list item our_Wines -->
+
+			<li>
+				<div id="winelist" class="wrapper">
+					<h3>Some of our Wines</h3>
+
 					<ol>
 						<li><p>AZIENDA AGRICOLA BASTIANICH & LA MOZZA</p>
 							<figure>
@@ -66,11 +72,16 @@
 							</figure>
 						</li>
 					</ol>
-				</div>
-				<a id="ourFeatures"><h2>Our Features</h2></a>
-
-				<p><a href="http://yougottocommit.com/theWineApp/index.html">External Link</a></p>
-			</ul>
-		</div><!-- End of container -->
-	</body>
+				</div><!-- end of winelist -->
+			</li>	
+			
+			<li id="footer">
+				<div class="wrapper">
+					<a id="ourFeatures"><h2>Our Features</h2></a>
+					<p><a href="http://yougottocommit.com/theWineApp/index.html">External Link</a></p>
+				</div><!-- end of footer wrapper -->
+			</li><!-- end of footer -->
+		</ul><!-- end of main_content -->
+	</div><!-- End of container -->
+</body>
 </html>
