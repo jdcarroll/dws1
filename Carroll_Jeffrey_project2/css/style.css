@@ -116,6 +116,10 @@ nav a:active {
 	border-color: gray;
 }
 
+.maincontent ul li:last-child {
+	border-bottom: none;
+}
+
 #intro_paragraph {
 	position: relative;
 	height: 700px;
@@ -236,6 +240,7 @@ Questions to ask when next in class
 3. I used short hand a little but I also used long hand to improve readability and usability
 and I going to get marked down for this?
 
-
+4. Is one example of switch elements from display block to display inline enough or 
+should I have multiples?
 
 *********************************************************/
