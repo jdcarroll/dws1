@@ -162,10 +162,6 @@ nav a:active {
 	border-bottom: none;
 }
 
-li:last-child {
-	border-bottom: none;
-}
-
 #footer {
 	background-color: rgba(178,178,178,0.4);
 	color: rgb(255,255,255);
