@@ -92,7 +92,7 @@ nav a:active {
       -ms-transform: translate(-50%, -50%);
        -o-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-	font: 7.5em 'Pinyon Script', cursive;
+	font: 6.5em 'Pinyon Script', cursive;
 	color: #ffffff;
 	text-shadow: 2px 2px 8px #000000;
 }
