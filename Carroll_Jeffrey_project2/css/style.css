@@ -51,7 +51,7 @@ nav ul {
 nav ul li {
 	margin: 0px;
 	list-style: none;
-	display: inline;
+	display: inline-block;
 	color:rgba(255,255,255,.9);
 	padding: 0px 20px 0px 20px;
 	
