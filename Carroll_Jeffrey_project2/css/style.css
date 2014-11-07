@@ -124,6 +124,7 @@ nav a:active {
 }
 
 #intro_paragraph p {
+	line-height:100%;
 	position: absolute;
 	top: 25%;	
 }
