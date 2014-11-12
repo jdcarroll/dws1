@@ -125,8 +125,7 @@ nav a:active {
 }
 
 #welcome {
-	background-image: url("../images/natural-canvas-pale.jpg");
-	background-repeat: repeat;
+	background-image: url("../images/canvas.jpg");
 }
 
 #intro_paragraph {
