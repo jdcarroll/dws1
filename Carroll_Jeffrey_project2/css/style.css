@@ -126,7 +126,7 @@ nav a:active {
 
 #welcome {
 	background-image: url("../images/natural-canvas-pale.jpg");
-	opacity: .5;
+	background-repeat: repeat;
 }
 
 #intro_paragraph {
