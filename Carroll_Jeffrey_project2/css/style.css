@@ -6,6 +6,15 @@
 	margin:0;
 	padding:0;
 	font-family: Arial, Helvetica, sans-serif;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 1%, #207cca 98%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(98%,#207cca)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 1%,#207cca 98%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 1%,#207cca 98%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 1%,#207cca 98%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 1%,#207cca 98%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
+
 }
 
 .backgroundimage {
@@ -190,7 +199,7 @@ ol li figure img {
 figcaption {
 	color: rgb(124,132,135);
 	font-size: 2em;
-	margin: 50px 20px 50px 0;
+	margin: 4.6% 1.8% 4.6% 0;
 }
 
 h2 {
