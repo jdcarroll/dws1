@@ -112,7 +112,7 @@ nav a:active {
 	margin:0;
 	padding:0px;
 	list-style-type: none;
-	border-width: 0 0 .09% 0;
+	border-width: 0 0 8px 0;
 	border-style: solid;
 	border-color: gray;
 }
@@ -121,7 +121,7 @@ nav a:active {
 
 #intro_paragraph {
 	position: relative;
-	height: 64.8%;
+	height: 700px;
 	
 }
 
