@@ -124,12 +124,14 @@ nav a:active {
 	border-color: gray;
 }
 
-
+#welcome {
+	background-image: url("../images/natural-canvas-pale.jpg");
+	opacity: .5;
+}
 
 #intro_paragraph {
 	position: relative;
 	height: 700px;
-	
 }
 
 #intro_paragraph p {
