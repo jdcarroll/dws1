@@ -3,8 +3,8 @@
 **********************************************************/
 
 .front-page {
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,7 +12,7 @@
 	position: relative;
 	margin: 0 auto;
 	width: 100%;
-	height: 800px;
+	min-height: 800px;
 	background-image: url("../images/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -41,7 +41,7 @@ nav {
 }
 
 nav ul {
-	margin:0px;
+	margin: 0;
 	text-align: center;
 	display: block;
 	background-color: rgba(76,8,14,0.6);
@@ -50,11 +50,11 @@ nav ul {
 }
 
 nav ul li {
-	margin: 10px 0;
+	margin: .9% 0;
 	list-style: none;
 	display: inline-block;
 	color:rgba(255,255,255,.9);
-	padding: 0px 20px 0px 20px;
+	padding: 0% 1.8% 0% 1.8%;
 }
 
 nav ul li a {
@@ -104,12 +104,12 @@ nav a:active {
 **********************************************************/
 
 .main_content {
-	margin:0px;
+	margin:0;
 	padding:0px;
 }
 
 .main_content li {
-	margin:0px;
+	margin:0;
 	padding:0px;
 	list-style-type: none;
 	border-width: 0 0 1px 0;
@@ -137,8 +137,8 @@ nav a:active {
 }
 
 #our_Wines {
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
 	position: relative;
 	background-color: rgb(0,108,211);
 	height: 500px;
