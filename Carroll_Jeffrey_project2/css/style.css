@@ -124,19 +124,23 @@ nav a:active {
 	border-color: gray;
 }
 
-#welcome {
-	background-image: url("../images/canvas.jpg");
-}
-
-#intro_paragraph {
-	position: relative;
-	height: 700px;
-}
-
 #intro_paragraph p {
+	color: #000;
+	opacity: 100%;
 	line-height:100%;
 	position: absolute;
 	top: 25%;	
+}
+
+#welcome {
+	background-image: url("../images/canvas.jpg");
+	background-repeat: repeat;
+}
+
+#intro_paragraph {
+
+	position: relative;
+	height: 700px;
 }
 
 #intro_paragraph blockquote {
