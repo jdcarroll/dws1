@@ -129,13 +129,18 @@ nav a:active {
 }
 
 #intro_paragraph {
-	min-height: 700px;
+	
 }
 
 #intro_paragraph p {
+	padding-top: 50px;
 	color: #000;
 	opacity: 1;
 	line-height:100%;
+}
+
+#intro_paragraph blockquote {
+	padding-bottom: 50px;
 }
 
 #welcome {
@@ -248,3 +253,37 @@ a:hover {
 	color: rgb(32,32,32);
 	font-weight: bold;
 }
+
+@media screen and (max-width: 550px) {
+
+	ol {
+		padding: 0px;
+	}
+
+	figure {
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.wine_image {
+		float: left;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.wine_quote {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		overflow: auto;
+	}
+}
+
+
+
+
+
+
+
+
+
