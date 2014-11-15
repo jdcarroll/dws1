@@ -9,10 +9,10 @@
 }
 
 .backgroundimage {
-	position: relative;
 	margin: 0 auto;
 	width: 100%;
 	min-height: 800px;
+	height:100%;
 	background-image: url("../images/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -104,7 +104,7 @@ nav a:active {
       -ms-transform: translate(-50%, -50%);
        -o-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-	font: 6.5em 'Pinyon Script', cursive;
+	font: 9vw 'Pinyon Script', cursive;
 	color: #ffffff;
 	text-shadow: 2px 2px 8px #000000;
 }
@@ -127,6 +127,9 @@ nav a:active {
 	border-color: gray;
 }
 
+#intro_paragraph {
+	min-height: 700px;
+}
 
 #intro_paragraph p {
 	color: #000;
@@ -140,10 +143,7 @@ nav a:active {
 	background-repeat: repeat;
 }
 
-#intro_paragraph {
-	position: relative;
-	min-height: 700px;
-}
+
 
 #intro_paragraph blockquote {
 }
