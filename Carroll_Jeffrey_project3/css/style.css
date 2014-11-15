@@ -160,10 +160,11 @@ nav a:active {
 
 .wine_image {
 	float: right;
-	display: inline;
 }
 
 .wine_quote {
+	width: 50%;
+	float: left;
 	font-size: .7em;
 }
 
