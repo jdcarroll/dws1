@@ -159,13 +159,12 @@ nav a:active {
 }
 
 .wine_image {
-	float: right
+	float: right;
+	display: inline;
 }
 
 .wine_quote {
-	float: left;
 }
-
 
 #our_Wines p {
 	padding: 5px 0 0 0;
@@ -175,11 +174,10 @@ nav a:active {
 
 
 #winelist ol li {
-	min-height: 600px;
+	overflow: auto;
 }
 
 #winelist ol li p {
-	clear: both;
 }
 
 #winelist ol li:last-child {
@@ -197,45 +195,12 @@ nav a:active {
 	clear: both; 
 }
 
-.link_float {
-	padding: 0px;
-	margin: 0 auto;
-	text-align: center;
-	padding: 10px;
-	border-radius: 5px;
-}
-
-.link_float li {
-	margin: .9% 0;
-	list-style: none;
-	display: inline-block;
-	float: left;
-	border-bottom: none;
-}
-
-.link_float li a {
-	display: block;
-	padding-right: 10%;
-	text-decoration: none;
-}
-
-.link_float:last-child {
-	clear: right;
-}
-
-/*.link_float li:last-child {
-	clear: both;
-}*/
-
-
 
 /*********************************************************
 ****************  Main Dom Elements   ********************
 **********************************************************/
 
 ol li figure img {
-	float: right;
-	display: block;
 	margin: 0 1.8% 1.8% 1.8%;
 	border-radius:1.8%;
 }
