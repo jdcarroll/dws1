@@ -210,7 +210,9 @@ nav a:active {
 	clear: right;
 }
 
-
+/*.link_float li:last-child {
+	clear: both;
+}*/
 
 
 
@@ -219,6 +221,7 @@ nav a:active {
 **********************************************************/
 
 ol li figure img {
+	float: right;
 	display: block;
 	margin: 0 1.8% 1.8% 1.8%;
 	border-radius:1.8%;

@@ -144,14 +144,6 @@ nav a:active {
 	height: 500px;
 }
 
-.wine_image {
-	float: right
-}
-
-.wine_quote {
-	float: left;
-}
-
 #our_Wines h2 {
 	padding: 100px 0 0 0;
 	font-size: 2.5em;
@@ -167,10 +159,6 @@ nav a:active {
 
 #winelist ol li {
 	min-height: 600px;
-}
-
-#winelist ol li p {
-	clear: both;
 }
 
 #winelist ol li:last-child {
