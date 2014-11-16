@@ -128,10 +128,6 @@ nav a:active {
 	border-color: gray;
 }
 
-#intro_paragraph {
-	
-}
-
 #intro_paragraph p {
 	padding-top: 50px;
 	color: #000;
@@ -254,7 +250,7 @@ a:hover {
 	font-weight: bold;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 775px) {
 
 	ol {
 		padding: 0px;
