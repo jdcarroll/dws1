@@ -262,7 +262,7 @@ a:hover {
 	}
 
 	.wine_image {
-		float: left;
+		float: center;
 		margin: 0px;
 		padding: 0px;
 	}
