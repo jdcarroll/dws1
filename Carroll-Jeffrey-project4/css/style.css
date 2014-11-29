@@ -271,7 +271,7 @@ footer h2 {
 #login_btn {
 	margin-top: 40px;
 	margin-bottom: 20px;
-	float: right;
+	float: left;
 }
 
 label:hover {
@@ -279,15 +279,13 @@ label:hover {
 }
 
 .title {
-	width: 125px;
 	margin-bottom: 5px;
 	text-align: right;
-	display: block;
+	display: inline-block;
 	padding-left: 30px;
 	padding-right: 5px;
 	padding-bottom: 0px;
 	float: left;
-
 }
 
 .placement {
@@ -326,6 +324,14 @@ label:hover {
 	display: inline-block;
 	width: 49%;
 	margin-left: 5px;
+}
+
+#word {
+	padding-left: 35px;
+}
+
+#pass {
+	float: left;
 }
 
 .clearfix {
