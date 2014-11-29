@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Wino App</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
+	<link href="js/jquery/jquery-ui.min.css" rel="stylesheet" type="text/css">
+	<!--[if IE]>
+		nav ul {
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0d51', endColorstr='#004fba',GradientType=0 ); IE6-9
+		}
+	<!endif]-->
+	<script src="js/jquery/jquery-2.1.1.min.js"></script>
+	<script src="js/jquery/jquery-ui.min.js"></script>
+	<!--<script type="text/javascript" src="js/main.js"></script>-->
+	<script src="js/main.js"></script>
+</head>
+<body class="front-page"><!-- I added a return between major elements on the page to improove read ability I dont know that there is anything thing semantically wrong with this but I have always appreciated it when other developers made things easier for me :) -->
+
+<header>
+	<nav>
+		<ul><!-- To demenstrate understanding of the link states in css and over all style consistency I have made all navigation elements links even though currently they don't go anywhere -->
+			<li><a href="#">Home</a></li>
+			<li><a href="#ourWines">Our Wines</a></li>
+			<li><a href="#ourFeatures">Our Features</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+
+	</nav>
+
+	<h1>The Wino App</h1>
+</header><!-- End of header -->
+
+	<div class="container"><!-- I am using a class on the assumption that I will have one containr per page -->
+
+		<div class="main_content">
+			<section id="welcome">
+
+			<h2>intro</h2>
+				<div id="intro_paragraph" class="wrapper">
+
+					<p>Welcome to <strong><em>The Wino App!!</em></strong> This is a place for you to let us do the pairing for you! Tell us what you are going to have for dinner and we will find you the perfect bottle to compliment your meal.  Not only will we suggest a great bottle for you but we will also help you find it. Keep your <abbr title="Geolocaton feature"><em>Geoloc</em></abbr> turned on in your device and we can check the inventory levels at he stores surrounding your area and we can tell you where to buy it.</p>
+
+					<blockquote><q>The Wino App is going to revolutionize the way that we interact with the consumer</q>- Jeff Warner (A professional Wino)</blockquote>
+
+				</div><!-- end of intro_paragraph -->
+			</section><!-- End of welcome -->
+
+
+			<section id="our_Wines">
+				<div id="challenge" class="wrapper">
+
+					<a id="ourWines"><h2>Our Wines</h2></a>
+
+					<p>We have a vast collection of wine in our database.  So much so that I dont think it's posible for the average consumer to have drank it all in one life time but if you are up for the challenge so are we!!</p>
+					<aside>
+						<div class="blog">
+							<h3>The Wine Importer</h3>
+							<div class="box">
+								<p id="one">Joe Dressner is part-owner of Louis/Dressner Selections, an American wine importer specializing in small producers, mostly French wines from highly regarded names like Bernard Baudry and Didier Barrouillet. When he's not traveling the world on business, he publishes one of the least pretentious blogs on the Web. It's wise and outspoken, as in a post about the state of wine tasting today. "Wine is not a vehicle for egomania, boastfulness and self-promotion. All the great 'tasters' I have known are able to submerge their ego and understand what is in the bottle."</p>
+							</div><!--end of box-->
+							<a href="www.JoeDressner.com">Learn More</a>
+						</div>
+						<div class="blog">
+							<h3>Vinography</h3>
+							<div class="box">
+								<p>Alder Yarrow is a San Francisco high-tech consultant and wine geek who runs Vinography, perhaps the Web's most popular and comprehensive wine blog. Like many bloggers, he's obsessed with what he calls his second career. "Instead of watching TV, I blog," he says. "I believe telling stories about a wine helps remove it from the realm of high status where all we know about it is the price." In addition to Yarrow's wine writing, Vinography includes his restaurant reviews. For instance, he raves about the duck and quince salad, the ravioli—and, yes, the wine list—at Quince in San Francisco. It also features links to articles in magazines, newspapers and other blogs.</p>
+							</div><!--end of box-->
+							<a href="www.Vinography.com">Read More</a>
+						</div>
+						<div class="blog">
+							<h3>Jamie Goode's Blog</h3>
+							<div class="box">
+								<p>Jamie Goode, a Brit, writes for several well-known English wine magazines and runs the Wine Anorak website, which offers excellent articles about wine travel, winemakers and wine tasting. He saves his more casual writing for his blog, in which he's refreshingly candid about the daily life of a wine professional. "We've had a huge rise in the number of samples landing on the doorstop chez Goode…It's not that there's anything wrong with samples; rather, the problem is that you end up focusing on a skewed population of wines—those that people are most anxious to flog."</p>
+							</div><!--end of box-->
+							<a href="www.WineAnorak.com">Find Out More</a>
+						</div>
+					</aside>
+				</div><!-- end of challenge -->
+			</section><!-- end of list item our_Wines -->
+
+			<article id="winelist" class="wrapper">
+				<h3>Some of our Wines</h3>
+
+				<ol>
+						<li><p>AZIENDA AGRICOLA BASTIANICH & LA MOZZA</p>
+							<figure>
+								<div class="wine_image">
+									<a href="images/burgundylarge.jpg"><img src="images/burgundy.jpg" alt="AZIENDA AGRICOLA BASTIANICH LA MOZZA"></a>
+								</div><!--end of wine_image-->
+								<figcaption>
+									<div class="wine_quote">
+										In 2001, Lidia Bastianich, Joe Bastianich and Mario Batali joined forces to create La Mozza, a 100 acre property located in the Maremma region of Tuscany (Magliano in Toscana, Grosseto) near Scansano southwest of Montalcino, 10 miles from the Tyrrhenian sea. Unlike other regions of Tuscany which are bound to regulations which define and restrict grapes and wine styles, Maremma allows more freedom of expression in order to achieve our goal of producing unique wines by incorporating mediterranean varietals such as Alicante, Petit Verdot, and Syrah. Through the research of our winemaker Maurizio Castelli, who also produces the Bastianich wines in Friuli, we are convinced that La Mozza is the ideal location. info by <a href="http://www.garyswine.com/fine_wine/italy/06398.html">Lidia Bastianich, Joe Bastianich and Mario Batali</a> image supplied from <a href="http://upload.wikimedia.org/wikipedia/commons/8/86/Burgundy_bottles.jpg">click here</a>
+									</div><!--end of wine_quote-->
+								</figcaption>
+							</figure>
+						</li>
+
+						<li><p>ITALIAN SPARKLING</p>
+							<figure>
+								<div class="wine_image">
+									<a href="images/paperlarge.jpg"><img src="images/paper.jpg" alt="Italian Sparkling"/></a>
+								</div><!--end of wine_image-->
+								<figcaption>
+									<div class="wine_quote">
+										Rosecco is a white wine grape variety used to make sparkling wine. It also happens to be a region located in Veneto in northwest Italy. Many call the Prosecco grape “Glera.” Most Prosecco wines are meant to be enjoyed young and fresh, so try to buy the newest vintage. You’ll find the aromatics to be flowery and peachy with nuances of vanilla bean, even though it will taste dry (aka not sweet). Still, Proseccos do taste slightly sweeter than traditional Champagne. If you see Prosecco rosé, know that the pink color comes from the addition of a touch of Pinot Nero (Pinot Noir); giving them yellow peach and strawberry flavors. info by <a href="http://winefolly.com/review/sparkling-italian-wine/">Graziano Merotto</a> image supplied from <a href="http://upload.wikimedia.org/wikipedia/en/6/6f/Paper_strip_under_wine_bottle_foil.jpg">click here</a>
+									</div><!--end of wine_quote-->
+								</figcaption>								
+							</figure>
+						</li>
+
+						<li><p>BIANCO</p>
+							<figure>
+								<div class="wine_image">
+									<a href="images/pasolarge.jpg"><img src="images/paso.jpg" alt="Bianco"/></a>
+								</div><!--end of wine_image-->
+								<figcaption>
+									<div class="wine_quote">
+										Layers of fruit supported by a lovely vein of minerality which gives the wine notable continuity on the palate as well as a long, clean finish... Clearly has the stuffing to develop further complexity in bottle. info by <a href="http://www.bastianich.com/wines_bianco.html">Bastianich</a> image supplied from <a href="http://upload.wikimedia.org/wikipedia/commons/9/9e/Paso_Robles_red_blend_unique_wine_bottle.jpg">click here</a>
+									</div><!--end of wine_quote-->
+								</figcaption>
+							</figure>
+						</li>
+				</ol><!-- end of wine ol -->
+					
+			</article><!-- end of winelist -->	
+			<section id="accord">
+				<div class="wrapper">
+					<a id="ourFeatures"><h2>The App</h2></a>
+					
+					<div id="accordion">
+
+						<h3>User Login</h3>
+						<div>
+							<div class="question">
+								<p>Login</p>
+							</div><!--end of question-->
+							<form action="#" method="post">
+							<div id="login">
+								<div><!--user-->
+									<div class="title placement">
+										<label for="lname">Username: </label>
+									</div><!--end of title-->
+									<input type="text" class="input_text" id="lname" name="username" required="required">
+								</div><!--end of user-->
+								<div><!--password-->
+									<div class="clearfix title placement">
+										<label for="pass"> Password: </label>
+									</div><!--end of clearfix title-->
+									<input type="password" class="input_text" id="pass" name="pass" required="required">
+								</div><!--end of password-->
+								<input type="submit" name="login" value="Login" id="login_btn">
+							</div><!--end of login-->
+							</form>
+							<p class="clearfix"> If you are an already exsisting customer please login.  If you are not a customer we have a demo of our product on the next section of our </p>
+						</div>
+						
+						<h3>Whats For dinner?</h3>
+						<div>
+							<!-- This is where I am going to put my form to choose the wine that you are going to have for dinner -->
+							<form action="#" method="post">
+								<div class="preference">
+								
+									<div class="question">
+										<p>What is your wine preference?</p>
+									</div>
+									
+								
+									<div class="form_radio">
+										<div class="title">
+											<p>Preference: </p>
+										</div>
+										<label for="red">Red</label><input name="wineColor" type="radio" value="r" id="red">
+										<label for="white">White</label><input name="wineColor" type="radio" value="w" id="white">
+									</div>
+								
+								</div><!-- end of preference -->
+								<div class="meal">
+									<div class="question">
+										<p>Choose from the list what you will be having for dinner.</p>
+									</div>
+									<div id="mainCourse">
+										<div class="title">
+											<p>Main Course: </p>
+										</div>
+										<div class="dropdown">
+											<select>
+												<option>Select your main course</option>
+												<option value="Steak">Steak</option>
+												<option value="Chicken">Chicken</option>
+												<option value="Fish">Fish</option>
+											</select>
+										</div>
+									</div>
+									<div id="sideItem">
+										<div class="title">
+											<p>Side Item: </p>
+										</div>
+										<div class="dropdown">
+											<select>
+												<option>Select your side dish</option>
+												<option value="Potatos">Potatos</option>
+												<option value="Salad">Salad</option>
+												<option value="Corn">Corn</option>
+
+											</select>
+										</div><!-- end of dropdown -->
+									</div><!-- end of sideitem -->
+								</div><!-- end of meal-->
+								<div class="submit">
+									<input type="submit" value="Search">
+								</div>
+							</form>
+							<!-- This is where I am going to put my form to choose the wine that you are going to have for dinner -->
+						</div>
+
+						<h3>Hours of Operation</h3>
+						<div>
+							<table id="hours">
+								<tr>
+									<th scope="col">Open Days</th>
+									<th scope="col">Open Hours</th>
+								</tr>
+								<tr>
+									<th scope="row">Monday</th>
+									<td>8am to 5pm</td>
+								</tr>
+								<tr>
+									<th scope="row">Tuesday</th>
+									<td>8am to 5pm</td>
+								</tr>
+								<tr>
+									<th scope="row">Wensday</th>
+									<td>8am to 5pm</td>
+								</tr>
+								<tr>
+									<th scope="row">Thursday</th>
+									<td>8am to 5pm</td>
+								</tr>
+								<tr>
+									<th scope="row">Friday</th>
+									<td>8am to 5pm</td>
+								</tr>
+								<tr>
+									<th scope="row">Saturday</th>
+									<td>12pm to 3pm</td>
+								</tr>
+								<tr>
+									<th scope="row">Sunday</th>
+									<td>Closed</td>
+								</tr>
+							</table>
+						</div>
+					</div><!-- end of accordion -->
+				</div><!-- end of wrapper -->
+			</section><!-- end of accord -->
+			<footer>
+				<div class="wrapper">
+					<form action="#" method="get">	
+						<input type="submit" id="search_btn" value="search" />
+						<input type="search" id="search" name="search" placeholder="Enter keyword"/>
+					</form>
+					<p><a href="http://yougottocommit.com/theWineApp/index.html">External Link</a></p>
+				</div><!-- end of footer wrapper -->
+			</footer><!-- end of footer -->
+		</div><!-- end of main_content -->
+	</div><!-- End of container -->
+
+</body>
+</html>

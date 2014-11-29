@@ -1,0 +1,508 @@
+/*********************************************************
+******************   Main Containers   *******************
+**********************************************************/
+
+.front-page {
+	margin:0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	margin: 0 auto;
+	width: 100%;
+	min-height: 800px;
+	height:100%;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 1px 1px 2px rgb(0,0,0);
+}
+
+.container {
+	background-color: rgb(255,255,255);
+	border-radius: 20px;
+}
+
+.wrapper {
+	max-width: 1080px;
+	width: 70%;
+	margin: 0 auto;
+	padding: 10px;
+	border: none;
+}
+
+/*********************************************************
+*******************   Navigation Bar   *******************
+**********************************************************/
+
+nav {
+	padding: 0px;
+	margin: 0 auto;
+}
+
+nav ul {
+	margin: 0;
+	text-align: center;
+	display: block;
+	padding: 10px;
+	border-radius: 5px;
+	background: #0e0d51; /* Old browsers */
+	background: -moz-linear-gradient(top,  #0e0d51 67%, #004fba 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(67%,#0e0d51), color-stop(100%,#004fba)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #0e0d51 67%,#004fba 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #0e0d51 67%,#004fba 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #0e0d51 67%,#004fba 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #0e0d51 67%,#004fba 100%); /* W3C */
+}
+
+nav ul li {
+	margin: .9% 0;
+	list-style: none;
+	display: inline-block;
+	color:rgba(255,255,255,.9);
+	padding: 0% 1.8% 0% 1.8%;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	color:rgba(255,255,255,.9)
+	
+}
+
+nav a:link {
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+nav a:visited {
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: rgb(124,132,135);
+}
+
+nav a:active {
+	text-decoration: none;
+	color: rgb(124,132,135);
+}
+
+
+header h1 {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+	font: 9vw 'Pinyon Script', cursive;
+	color: #ffffff;
+	text-shadow: 2px 2px 8px #000000;
+}
+
+/*********************************************************
+**********************  aside   **************************
+**********************************************************/
+
+.blog {
+	width: 30%;
+	min-height: 200px;
+	float: left;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.blog h3 {
+	display: block;
+	color: #ffffff;
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 4px;
+}
+
+.blog a {
+	float: left;
+	color: #ffffff;
+}
+
+.box {
+	display: inline;
+	height: 125px;
+	font-size: .3em;
+	overflow: hidden;
+}
+
+/*********************************************************
+*****************  Main Content IDs   ********************
+**********************************************************/
+
+.main_content {
+	position: relative;
+	margin:0;
+	padding:0px;
+}
+
+.main_content li {
+	margin:0;
+	padding:0px;
+	list-style-type: none;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #878787;
+}
+
+#intro_paragraph p {
+	padding-top: 50px;
+	color: #000;
+	opacity: 1;
+	line-height:100%;
+	font-size: 2em;
+}
+
+#intro_paragraph blockquote {
+	padding-bottom: 50px;
+}
+
+#welcome {
+	position: relative;
+	background-image: url("../images/canvas.jpg");
+	background-repeat: repeat;
+}
+
+#welcome h2 {
+	display: none;
+}
+
+#our_Wines {
+	margin:0;
+	padding:0;
+	position: relative;
+	background-color: rgb(0,108,211);
+	min-height: 600px;
+	overflow: auto;
+}
+
+#our_Wines h2 {
+	padding: 100px 0 0 0;
+	font-size: 2.5em;
+	color: #ffffff;
+}
+
+.wine_image {
+	float: right;
+}
+
+.wine_quote {
+	width: 50%;
+	float: left;
+	font-size: .7em;
+}
+
+#our_Wines div p {
+	padding: 5px 0 0 0;
+	color: rgb(255,255,255);
+	font-size: 2em;
+}
+
+
+#winelist ol li {
+	overflow: auto;
+}
+
+#winelist ol li p {
+	font-size: 2em;
+	font-weight: bold;
+	color: rgb(124,132,135);
+}
+
+#winelist ol li:last-child {
+	border-bottom: none;
+}
+
+footer {
+	background-color: rgba(178,178,178,0.4);
+	color: rgb(255,255,255);
+
+}
+
+footer h2 {
+	color: rgb(255,255,255);
+	clear: both; 
+}
+
+
+
+/**************************************************
+****** Our features Whats for dinner form *********
+***************************************************/
+
+#search {
+	margin-top: 20px;
+	float: right;
+}
+
+#search_btn {
+	margin-top: 20px;
+	float: right;
+}
+
+.preference {
+	padding-bottom: 10px;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #878787;
+}
+
+.question {
+	font-style: italic;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+#login {
+	width: 40%;
+}
+
+#login_btn {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	float: right;
+}
+
+label:hover {
+	cursor: pointer;
+}
+
+.title {
+	width: 125px;
+	margin-bottom: 5px;
+	text-align: right;
+	display: block;
+	padding-left: 30px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	float: left;
+
+}
+
+.placement {
+	padding-top: 3px;
+}
+
+.input_text {
+	border: 1px solid #2A2A7A;
+}
+
+.input_text:focus {
+	font-size: 1em;
+	color: #000000;
+	background-color: #F9F9AF;
+}
+
+.form_radio {
+	padding: 5px;
+}
+
+.form_radio label {
+	padding-right: 5px;
+}
+
+.meal {
+	padding-top: 10px;
+}
+
+.meal #mainCourse {
+	width: 49%;
+	float: left;
+	margin-right: 5px;
+}
+
+.meal #sideItem {
+	display: inline-block;
+	width: 49%;
+	margin-left: 5px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/**************************************************
+*********** Hours of Operations Table *************
+***************************************************/
+
+#hours {
+	border-collapse: collapse;
+	border-right: 1px;
+}
+
+#hours tr:nth-child(even) {
+	background-color: #BECDF4;
+}
+
+#hours tr:nth-child(odd) {
+	background-color: #B2B2B2;
+}
+
+#hours tr:hover {
+
+	background-color: #ffffff;
+}
+
+#hours th {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: .8em;
+	margin-right: 10px;
+	text-align: right;
+	padding: 5px 10px 5px 10px;
+}
+
+#hours td {
+	font-size: .6em;
+	width: 85%;
+	text-align: right;
+	margin-right: 2cm;
+	padding: 5px 10px 5px 10px;
+}
+
+#hours tr:first-child th:first-child {
+	border-top-left-radius: .4em;
+	-moz-border-radius-topleft: .4em;
+	-webkit-border-top-left-radius: .4em;
+}
+
+#hours tr:first-child th:last-child {
+	padding: 5px 10px 5px 10px;
+	text-align: right;
+	border-top-right-radius: .4em;
+	-moz-border-radius-topright: .4em;
+	-webkit-border-top-right-radius: .4em;
+}
+
+/**************************************************
+********* Jquery Accordion Expeieriment ***********
+***************************************************/
+
+#accord {
+	color: #ffffff;
+	background-color: #2A2A7A;
+}
+
+#accord h2 {
+	color: #ffffff;
+}
+
+#accordion {
+	padding-bottom: 100px;
+}
+
+#accordion p {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+/*********************************************************
+****************  Main Dom Elements   ********************
+**********************************************************/
+
+ol li figure img {
+	margin: 0 1.8% 1.8% 1.8%;
+	border-radius:1.8%;
+}
+
+blockquote {
+	color: rgb(124,132,135);
+	font-size: 2em;
+	line-height: 120%;
+	text-align: center;
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(124,132,135);
+	font-weight: bold;
+	box-shadow: 0px 0px 0px rgb(0,0,0);
+}
+
+figcaption {
+	color: rgb(124,132,135);
+	font-size: 2em;
+	margin: 4.6% 1.8% 4.6% 0;
+}
+
+h2 {
+	color: rgb(124,132,135);
+	font-size: 2.5em;
+}
+
+article h3 {
+	color: rgb(124,132,135);
+	font-size: 2.25em;
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgb(32,32,32);
+	font-weight: bold;
+}
+
+
+/**************************************************
+********* Responive Design Expirement *************
+***************************************************/
+
+@media screen and (max-width: 1171px) {
+
+	ol {
+		padding: 0px;
+	}
+
+	figure {
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.wine_image {
+		float: left;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.wine_quote {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		overflow: auto;
+	}
+}
+
+
+/**************************************************
+*********** Notes / Thoughts of design ************
+***************************************************/
+
+/*
+I was playing with responsive design here but I also realized that this is not the way to do
+rersponsive design professionally and look foward to learning how to do this better.  The max width is
+set so high because it was the only way that I could make the appearence look right with out adding another 
+media query for tablets and all that jazz. per the assignment because media queries are not required I desided not to
+push it with out first larning the "Professional way of using them."
+*/
+
+
+
+
+
+
+
+

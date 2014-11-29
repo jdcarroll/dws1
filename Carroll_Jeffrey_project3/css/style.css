@@ -54,9 +54,6 @@ nav ul {
 	background: -o-linear-gradient(top,  #0e0d51 67%,#004fba 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  #0e0d51 67%,#004fba 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #0e0d51 67%,#004fba 100%); /* W3C */
-	/* This was causing validation errors in the code but it came from http://www.colorzilla.com/gradient-editor/ I am keeping it in the 
-	comments for this reason please advice about this thank you.
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0d51', endColorstr='#004fba',GradientType=0 ); IE6-9 */
 }
 
 nav ul li {
@@ -250,6 +247,11 @@ a:hover {
 	font-weight: bold;
 }
 
+
+/**************************************************
+********* Responive Design Expirement *************
+***************************************************/
+
 @media screen and (max-width: 1171px) {
 
 	ol {
@@ -275,6 +277,18 @@ a:hover {
 	}
 }
 
+
+/**************************************************
+*********** Notes / Thoughts of design ************
+***************************************************/
+
+/*
+I was playing with responsive design here but I also realized that this is not the way to do
+rersponsive design professionally and look foward to learning how to do this better.  The max width is
+set so high because it was the only way that I could make the appearence look right with out adding another 
+media query for tablets and all that jazz. per the assignment because media queries are not required I desided not to
+push it with out first larning the "Professional way of using them."
+*/
 
 
 
