@@ -241,6 +241,26 @@ footer h2 {
 ****** Our features Whats for dinner form *********
 ***************************************************/
 
+#commentElement {
+	padding-left: 30px;
+	display: inline-block;
+	overflow: auto;
+}
+
+#commentElement p {
+	float: left;
+}
+
+#commentElement textarea {
+	margin-left: 5px;
+}
+
+.textareaTitle {
+	margin-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
 #search {
 	margin-top: 20px;
 	float: right;
